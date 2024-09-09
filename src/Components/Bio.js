@@ -37,29 +37,29 @@ export function Bio() {
                         <LongButton />
                     </div>
 
-                    {/* menu */}
 
                     <div className="flex xl:pl-24 pl-12 flex-col items-center justify-center hidden lg:flex lg:justify-center ">
                         <div class="mb-4 flex items-center justify-center w-14 h-14 bg-[#FFB400] rounded-full hover:bg-[#FFB400] transition-colors">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="5" stroke="currentColor" class="w-8 h-8 text-white transition-colors">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                            </svg>
+                            <img src="./img/asset/home.svg" className="w-7 h-7"></img>
                         </div>
+
+
                         <div class="mb-4 flex items-center justify-center w-14 h-14 bg-[#4d4942] rounded-full hover:bg-[#FFB400] transition-colors">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="5" stroke="currentColor" class="w-8 h-8 text-white transition-colors">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                            </svg>
+                            <img src="./img/asset/user.svg" className="w-7 h-7"></img>
                         </div>
+
                         <div class="mb-4 flex items-center justify-center w-14 h-14 bg-[#4d4942] rounded-full hover:bg-[#FFB400] transition-colors">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="5" stroke="currentColor" class="w-8 h-8 text-white transition-colors">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                            </svg>
+                            <img src="./img/asset/job.svg" className="w-7 h-7"></img>
                         </div>
+
                         <div class="mb-4 flex items-center justify-center w-14 h-14 bg-[#4d4942] rounded-full hover:bg-[#FFB400] transition-colors">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="5" stroke="currentColor" class="w-8 h-8 text-white transition-colors">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                            </svg>
+                            <img src="./img/asset/mail.svg" className="w-7 h-7"></img>
                         </div>
+
+                        <div class="mb-4 flex items-center justify-center w-14 h-14 bg-[#4d4942] rounded-full hover:bg-[#FFB400] transition-colors">
+                            <img src="./img/asset/message.svg" className="w-7 h-7"></img>
+                        </div>
+
                     </div>
                 </div>
 
