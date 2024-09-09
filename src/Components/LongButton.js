@@ -3,7 +3,7 @@ export function LongButton() {
     return (
         <>
             <div>
-                <button class="Btn-Container flex w-[170px] h-auto bg-[#0a0a0a] rounded-full shadow-md justify-between items-center  cursor-pointer">
+                <button class="Btn-Container flex w-[170px] h-auto bg-[#0a0a0a] rounded-full shadow-md justify-between items-center  cursor-pointer border-[2px] border-[#FFB400]">
                     <span class="text text-white text-xl tracking-wide flex-1 h-full flex items-center justify-center">let's go!</span>
                     <span class="icon-Container w-[45px] h-[45px] bg-[#FFB400] flex items-center justify-center rounded-full border-[3px] border-[#1d2129]">
                         <svg
