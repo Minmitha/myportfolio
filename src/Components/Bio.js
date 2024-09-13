@@ -1,11 +1,10 @@
 import { LongButton } from "./LongButton"
-
-
+import { Navbar } from "./Navbar"
 export function Bio() {
     return (
         <>
             <div className="flex h-screen bg-[#111111] w-full">
-                <div className="flex flex-row inset-0 overflow-hidden lg:w-1/2">
+                <div className="flex flex-row inset-0  lg:w-1/2">
                     <div className="hidden lg:block transform rotate-[-17deg] bg-[#FFB400] w-[600px] lg:w-[430px] h-full -left-60 absolute -bottom-10 scale-125">
                     </div>
                     <div className="flex flex-grow items-center justify-center relative lg:p-9">
@@ -34,32 +33,10 @@ export function Bio() {
                         <p className="text-white text-base md:text-xl lg:text-lg mt-1 mb-10">
                             code and user-friendly design.
                         </p>
-                        <LongButton />
+                        <LongButton text="Let's Go!"/>
                     </div>
-
-
-                    <div className="flex xl:pl-24 pl-12 flex-col items-center justify-center hidden lg:flex lg:justify-center ">
-                        <div class="mb-4 flex items-center justify-center w-14 h-14 bg-[#FFB400] rounded-full hover:bg-[#FFB400] transition-colors">
-                            <img src="./img/asset/home.svg" className="w-7 h-7"></img>
-                        </div>
-
-
-                        <div class="mb-4 flex items-center justify-center w-14 h-14 bg-[#4d4942] rounded-full hover:bg-[#FFB400] transition-colors">
-                            <img src="./img/asset/user.svg" className="w-7 h-7"></img>
-                        </div>
-
-                        <div class="mb-4 flex items-center justify-center w-14 h-14 bg-[#4d4942] rounded-full hover:bg-[#FFB400] transition-colors">
-                            <img src="./img/asset/job.svg" className="w-7 h-7"></img>
-                        </div>
-
-                        <div class="mb-4 flex items-center justify-center w-14 h-14 bg-[#4d4942] rounded-full hover:bg-[#FFB400] transition-colors">
-                            <img src="./img/asset/mail.svg" className="w-7 h-7"></img>
-                        </div>
-
-                        <div class="mb-4 flex items-center justify-center w-14 h-14 bg-[#4d4942] rounded-full hover:bg-[#FFB400] transition-colors">
-                            <img src="./img/asset/message.svg" className="w-7 h-7"></img>
-                        </div>
-
+                    <div className="w-32 pl-12 flex-col items-end justify-center hidden lg:flex lg:justify-center gap-4">
+                       <Navbar />
                     </div>
                 </div>
 
