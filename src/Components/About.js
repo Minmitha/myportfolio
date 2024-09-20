@@ -12,7 +12,7 @@ export function About() {
                         <div className="relative flex items-center justify-center">
                             <span className="absolute inset-0 flex items-center justify-center text-5xl font-extrabold">
                                 <span className="text-white mr-3">ABOUT </span>
-                                <span className="text-yellow-500"> ME</span>
+                                <span className="text-[#FFB400]"> ME</span>
                             </span>
                             <p className="text-[#222222] text-[110px] font-extrabold">RESUME</p>
                         </div>

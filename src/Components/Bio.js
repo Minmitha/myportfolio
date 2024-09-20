@@ -22,15 +22,11 @@ export function Bio() {
                                 src="./img/mini2.png"
                                 className="mx-auto mb-25 w-48 h-48 md:w-[270px] md:h-[270px] rounded-full border-4 border-solid border-[#252525]" />
                         </div>
-                        <p className="text-[#FFB400] text-3xl md:text-4xl xl:text-5xl font-bold">- I'M MINMITHA A.</p>
-                        <p className="text-white text-3xl md:text-4xl xl:text-5xl mt-4 font-bold">SOFTWARE ENGINEER</p>
-                        <p className="text-white text-base md:text-xl xl:text-lg mt-4">
+                        <h1 className="text-[#FFB400] text-3xl md:text-4xl xl:text-5xl font-bold">- I'M MINMITHA A.</h1>
+                        <h2 className="text-white text-3xl md:text-4xl xl:text-5xl mt-4 font-bold">SOFTWARE ENGINEER</h2>
+                        <p className="text-white text-base md:text-xl xl:text-lg mt-4 w-[50%] pb-8">
                             I'm a software engineer with a passion for developing
-                        </p>
-                        <p className="text-white text-base md:text-xl lg:text-lg mt-1">
                             robust and scalable solutions, With a focus on clean
-                        </p>
-                        <p className="text-white text-base md:text-xl lg:text-lg mt-1 mb-10">
                             code and user-friendly design.
                         </p>
                         <LongButton text="Let's Go!"/>
