@@ -31,8 +31,8 @@ export function ContactMe() {
                                         <div className="flex-grow">
                                             <p className="text-white uppercase text-xs font-bold opacity-85">mail me</p>
                                             <p className="text-white text-xl font-medium">
-                                                <a href="mailto:arumugamminmitha1971@gmail.com">
-                                                    arumugamminmitha1971@gmail.com
+                                                <a href="mailto:minmitha0822@gmail.com">
+                                                    minmitha0822@gmail.com
                                                 </a>
                                             </p>
                                         </div>

@@ -35,7 +35,7 @@ export function About() {
                                         </div>
                                         <div className="pb-[20px]">
                                             <span className="opacity-80 text-base">Email: </span>
-                                            <span className="text-base">arumugamminmitha1971@gmail.com</span>
+                                            <span className="text-base">minmitha0822@gmail.com</span>
                                         </div>
                                         <div className="pb-[20px]">
                                             <span className="opacity-80 text-base">Age: </span>
