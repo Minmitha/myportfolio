@@ -3,9 +3,9 @@ export function LongButton({text}) {
     return (
         <>
             <div>
-                <button className="Btn-Container flex w-[170px] h-auto bg-[#0a0a0a] rounded-full shadow-md justify-between items-center  cursor-pointer border-[2px] border-[#FFB400]">
-                    <span className="text text-white text-xl tracking-wide flex-1 h-full flex items-center justify-center">{text}</span>
-                    <span className="icon-Container w-[45px] h-[45px] bg-[#FFB400] flex items-center justify-center rounded-full border-[3px] border-[#1d2129]">
+                <button className="Btn-Container flex w-[170px] h-auto bg-[#0a0a0a] hover:bg-[#FFB400] rounded-full shadow-md justify-between items-center  cursor-pointer border-[2px] border-[#FFB400]">
+                    <span className="text text-white text-xl font-bold tracking-wide flex-1 h-full flex items-center justify-center">{text}</span>
+                    <span className="icon-Container w-[45px] h-[45px] bg-[#FFB400] flex items-center justify-center rounded-full border-8 border-[#FFB400]">
                         <svg
                             width="16"
                             height="19"

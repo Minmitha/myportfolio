@@ -3,7 +3,7 @@ import { Navbar } from "./Navbar"
 export function Bio() {
     return (
         <>
-            <div className="flex h-screen bg-[#111111] w-full">
+            <div className="flex h-screen bg-[#111111] w-full fixed">
                 <div className="flex flex-row inset-0  lg:w-1/2">
                     <div className="hidden lg:block transform rotate-[-17deg] bg-[#FFB400] w-[600px] lg:w-[430px] h-full -left-60 absolute -bottom-10 scale-125">
                     </div>
@@ -29,11 +29,12 @@ export function Bio() {
                             robust and scalable solutions, With a focus on clean
                             code and user-friendly design.
                         </p>
-                        <LongButton text="Let's Go!"/>
+                        <LongButton text="Let's Go!" />
                     </div>
-                    <div className="w-32 pl-12 flex-col items-end justify-center hidden lg:flex lg:justify-center gap-4">
-                       <Navbar />
+                    <div className="w-32 pr-8 flex-col items-end justify-center hidden lg:flex lg:justify-center gap-4 fixed right-0 top-1/2 transform -translate-y-1/2">
+                        <Navbar />
                     </div>
+
                 </div>
 
             </div>

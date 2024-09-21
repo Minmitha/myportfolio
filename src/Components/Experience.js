@@ -2,7 +2,7 @@ export function Experience() {
     return (
         <>
             <div>
-                <div className="flex items-center justify-center w-full ">
+                <div className="flex items-center justify-center w-full">
                     <hr className="w-[600px] bg-[#252525] h-[2px] mb-16 opacity-45" />
                 </div>
             </div>
@@ -11,7 +11,7 @@ export function Experience() {
             </div>
             <div className="mb-16">
                 <div className="flex items-center justify-center">
-                    <div className="flex flex-wrap justify-center gap-4">
+                    <div className="flex flex-wrap justify-center gap-8">
                         <div className="education-card flex items-center justify-center w-[600px] h-[200px]">
                             <div className="basis-1/4 flex flex-col items-center">
                                 <span className="flex items-center justify-center w-10 h-10 bg-[#FFB400] rounded-full transition-all duration-700 ease-in-out group-hover:bg-[#FFB600]">

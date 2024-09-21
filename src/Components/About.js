@@ -7,7 +7,7 @@ export function About() {
     return (
         <>
             <div className="flex bg-[#111111]">
-                <div className="container mx-auto h-full">
+                <div className="container mx-auto h-full pt-12 w-full">
                     <div className="flex items-start justify-center">
                         <div className="relative flex items-center justify-center">
                             <span className="absolute inset-0 flex items-center justify-center text-5xl font-extrabold">
@@ -17,9 +17,9 @@ export function About() {
                             <p className="text-[#222222] text-[110px] font-extrabold">RESUME</p>
                         </div>
                     </div>
-                    <div className="flex mb-16">
+                    <div className="flex mt-12 mb-16 pr-48 pl-48">
                         <div className="flex grow">
-                            <div className="flex flex-col grow">
+                            <div className="flex flex-col grow basis-1/2">
                                 <div>
                                     <p className="text-2xl text-white font-bold pb-[22px]">PERSONAL INFOS</p>
                                 </div>
@@ -67,75 +67,74 @@ export function About() {
                                 </div>
 
                             </div>
-
-                        </div>
-                        <div className="flex flex-col grow gap-4">
-                            <div className="flex basis-1/2 gap-4">
-                                <div className="basis-1/2 border border-[#252525] ">
-                                    <div className="relative h-40">
-                                        <div className="absolute top-2 left-2">
-                                            <span className="font-extrabold text-5xl text-[#FFB400]">3+</span>
+                            <div className="flex flex-col grow basis-1/2 gap-4">
+                                <div className="flex basis-1/2 gap-4">
+                                    <div className="basis-1/2 border border-[#252525] ">
+                                        <div className="relative h-40">
+                                            <div className="absolute top-2 left-2">
+                                                <span className="font-extrabold text-5xl text-[#FFB400]">2+</span>
+                                            </div>
+                                            <div className="flex items-center absolute inset-x-0 bottom-2">
+                                                <span className="flex justify-center items-center basis-1/4">
+                                                    <hr className="w-8 bg-white h-1" />
+                                                </span>
+                                                <span className="flex flex-col items-start justify-center text-2xl basis-3/4 font-medium">
+                                                    <span className="text-white">YEARS OF</span>
+                                                    <span className="text-white">EXPERIENCE</span>
+                                                </span>
+                                            </div>
                                         </div>
-                                        <div className="flex items-center absolute inset-x-0 bottom-2">
-                                            <span className="flex justify-center items-center basis-1/4">
-                                                <hr className="w-8 bg-white h-1" />
-                                            </span>
-                                            <span className="flex flex-col items-start justify-center text-2xl basis-3/4 font-medium">
-                                                <span className="text-white">YEARS OF</span>
-                                                <span className="text-white">EXPERIENCE</span>
-                                            </span>
+                                    </div>
+                                    <div className="basis-1/2 border border-[#252525] ">
+                                        <div className="relative h-40">
+                                            <div className="absolute top-2 left-2">
+                                                <span className="font-extrabold text-5xl text-[#FFB400]">15+</span>
+                                            </div>
+                                            <div className="flex items-center absolute inset-x-0 bottom-2">
+                                                <span className="flex justify-center items-center basis-1/4">
+                                                    <hr className="w-8 bg-white h-1" />
+                                                </span>
+                                                <span className="flex flex-col items-start justify-center text-2xl basis-3/4 font-medium">
+                                                    <span className="text-white">COMPLETED</span>
+                                                    <span className="text-white">PROJECTS</span>
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="basis-1/2 border border-[#252525] ">
-                                    <div className="relative h-40">
-                                        <div className="absolute top-2 left-2">
-                                            <span className="font-extrabold text-5xl text-[#FFB400]">15+</span>
-                                        </div>
-                                        <div className="flex items-center absolute inset-x-0 bottom-2">
-                                            <span className="flex justify-center items-center basis-1/4">
-                                                <hr className="w-8 bg-white h-1" />
-                                            </span>
-                                            <span className="flex flex-col items-start justify-center text-2xl basis-3/4 font-medium">
-                                                <span className="text-white">COMPLETED</span>
-                                                <span className="text-white">PROJECTS</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div className="flex basis-1/2 gap-4">
-                                <div className="basis-1/2 border border-[#252525] ">
-                                    <div className="relative h-40">
-                                        <div className="absolute top-2 left-2">
-                                            <span className="font-extrabold text-5xl text-[#FFB400]">2+</span>
+                                <div className="flex basis-1/2 gap-4">
+                                    <div className="basis-1/2 border border-[#252525] ">
+                                        <div className="relative h-40">
+                                            <div className="absolute top-2 left-2">
+                                                <span className="font-extrabold text-5xl text-[#FFB400]">4+</span>
+                                            </div>
+                                            <div className="flex items-center absolute inset-x-0 bottom-2">
+                                                <span className="flex justify-center items-center basis-1/4">
+                                                    <hr className="w-8 bg-white h-1" />
+                                                </span>
+                                                <span className="flex flex-col items-start justify-center text-2xl basis-3/4 font-medium">
+                                                    <span className="text-white">AWARDS</span>
+                                                    <span className="text-white">WON</span>
+                                                </span>
+                                            </div>
                                         </div>
-                                        <div className="flex items-center absolute inset-x-0 bottom-2">
-                                            <span className="flex justify-center items-center basis-1/4">
-                                                <hr className="w-8 bg-white h-1" />
-                                            </span>
-                                            <span className="flex flex-col items-start justify-center text-2xl basis-3/4 font-medium">
-                                                <span className="text-white">YEARS OF</span>
-                                                <span className="text-white">EXPERIENCE</span>
-                                            </span>
-                                        </div>
-                                    </div>
 
-                                </div>
-                                <div className=" basis-1/2 border border-[#252525] ">
-                                    <div className="relative h-40">
-                                        <div className="absolute top-2 left-2">
-                                            <span className="font-extrabold text-5xl text-[#FFB400]">2+</span>
-                                        </div>
-                                        <div className="flex items-center absolute inset-x-0 bottom-2">
-                                            <span className="flex justify-center items-center basis-1/4">
-                                                <hr className="w-8 bg-white h-1" />
-                                            </span>
-                                            <span className="flex flex-col items-start justify-center text-[16px] basis-3/4 font-medium">
-                                                <span className="text-white">YEARS OF</span>
-                                                <span className="text-white">EXPERIENCE</span>
-                                            </span>
+                                    </div>
+                                    <div className=" basis-1/2 border border-[#252525] ">
+                                        <div className="relative h-40">
+                                            <div className="absolute top-2 left-2">
+                                                <span className="font-extrabold text-5xl text-[#FFB400]">10+</span>
+                                            </div>
+                                            <div className="flex items-center absolute inset-x-0 bottom-2">
+                                                <span className="flex justify-center items-center basis-1/4">
+                                                    <hr className="w-8 bg-white h-1" />
+                                                </span>
+                                                <span className="flex flex-col items-start justify-center text-2xl basis-3/4 font-medium">
+                                                    <span className="text-white">EXPERTISED</span>
+                                                    <span className="text-white">SKILLS</span>
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -155,24 +154,24 @@ export function About() {
                             </div>
                         </div>
                         <div className="flex items-center justify-center">
-                            <div className="cards flex flex-wrap justify-center gap-4">
-                                <div className="flex flex-col gap-4">
+                            <div className="cards flex flex-wrap justify-center gap-8">
+                                <div className="flex flex-col gap-8">
                                     <Skills percentage="50%" skill="HTML" />
                                     <Skills percentage="70%" skill="CSS" />
                                 </div>
-                                <div className="flex flex-col gap-4">
+                                <div className="flex flex-col gap-8">
                                     <Skills percentage="75%" skill="JAVASCRIPT" />
                                     <Skills percentage="70%" skill="JQUERY" />
                                 </div>
-                                <div className=" flex flex-col gap-4">
+                                <div className=" flex flex-col gap-8">
                                     <Skills percentage="60%" skill="AJAX" />
                                     <Skills percentage="60%" skill="REACT" />
                                 </div>
-                                <div className=" flex flex-col gap-4">
+                                <div className=" flex flex-col gap-8">
                                     <Skills percentage="85%" skill="PHP" />
                                     <Skills percentage="85%" skill="LARAVEL" />
                                 </div>
-                                <div className=" flex flex-col gap-4">
+                                <div className=" flex flex-col gap-8">
                                     <Skills percentage="75%" skill="TAILWIND CSS" />
                                     <Skills percentage="60%" skill="MYSQL" />
                                 </div>
@@ -180,10 +179,10 @@ export function About() {
                         </div>
                     </div>
                     <div>
-                       <Experience/>
+                        <Experience />
                     </div>
                 </div>
-                <div className="w-32 pl-12 pr-12 flex-col items-end justify-center hidden lg:flex lg:justify-center gap-4">
+                <div className="w-32 pr-8 flex-col items-end justify-center hidden lg:flex lg:justify-center gap-4 fixed right-0 top-1/2 transform -translate-y-1/2">
                     <Navbar />
                 </div>
             </div >
