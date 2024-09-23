@@ -49,7 +49,7 @@ export function Projects() {
                 },
                
             ].map((project, index) => (
-                <div key={index} className="relative bg-white w-[350px] h-[200px] border rounded-[10px] flex items-center justify-center overflow-hidden transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-[0_10px_20px_rgba(0,0,0,0.2)]">
+                <div key={index} className="relative bg-white md:w-[350px] md:h-[200px] w-[300px] h-[200px] border rounded-[10px] flex items-center justify-center overflow-hidden transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-[0_10px_20px_rgba(0,0,0,0.2)]">
                     <img src={project.src} alt={project.title} className="object-contain p-4 w-[250px] h-[200px]" />
                     <div className="absolute card__content top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -rotate-45 w-full h-full p-5 box-border bg-[#FFB400] opacity-0 transition-all duration-300 ease-in-out hover:rotate-0 hover:opacity-100">
                         <p className="m-0 text-[14px] text-[#252525] font-extrabold uppercase">{project.title}</p>

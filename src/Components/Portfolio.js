@@ -5,7 +5,7 @@ import { Projects } from "./Projects";
 export function Portfolio() {
     return (
         <>
-            <div className="flex bg-[#111111] h-full flex-col lg:flex-row">
+            <div className="flex bg-[#111111] h-full w-full flex-col lg:flex-row">
                 <TopNavbar />
                 <div className="container mx-auto flex flex-col items-center justify-center pt-20 w-full px-4 lg:px-0">
                     <div className="relative flex items-center justify-center mb-20">

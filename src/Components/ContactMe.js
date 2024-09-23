@@ -4,7 +4,7 @@ import { TopNavbar } from "./TopNavbar";
 export function ContactMe() {
     return (
         <>
-            <div className="flex flex-col lg:flex-row bg-[#111111] h-screen">
+            <div className="flex flex-col lg:flex-row bg-[#111111] h-full">
                 <TopNavbar />
                 <div className="container mx-auto h-full  pt-20 w-full px-4 lg:px-0">
                     <div className="flex items-start justify-center ">
