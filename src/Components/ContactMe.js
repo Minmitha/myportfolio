@@ -4,9 +4,9 @@ import { TopNavbar } from "./TopNavbar";
 export function ContactMe() {
     return (
         <>
-            <div className="flex flex-col lg:flex-row bg-[#111111] h-full">
+            <div className="flex flex-col lg:flex-row bg-[#111111] min-h-screen">
                 <TopNavbar />
-                <div className="container mx-auto h-full  pt-20 w-full px-4 lg:px-0">
+                <div className="container mx-auto h-full pt-20 w-full px-4 lg:px-0">
                     <div className="flex items-start justify-center ">
                         <div className="relative flex flex-col items-center justify-center">
                             <span className="absolute inset-0 flex items-center justify-center text-3xl lg:text-5xl  font-extrabold">
@@ -76,7 +76,7 @@ export function ContactMe() {
                                 ></textarea>
                             </form>
                             <div className="flex w-full max-w-[400px] lg:max-w-[800px] justify-start mt-4">
-                                <LongButton text="SEND" />
+                                <LongButton text="MESSAGE ME"  icon="./img/asset/telegram.svg" iconclass="relative z-10 w-5 h-5"/>
                             </div>
                         </div>
                     </div>

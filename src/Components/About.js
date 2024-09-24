@@ -62,7 +62,7 @@ export function About() {
                             </div>
                         </div>
                         <div className="mt-4">
-                            <LongButton text="HIRE ME" />
+                            <LongButton text="DOWNLOAD CV" icon="./img/asset/download.svg" iconclass="relative z-10 w-5 h-5"/>
                         </div>
                     </div>
 

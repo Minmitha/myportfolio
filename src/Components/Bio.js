@@ -35,7 +35,7 @@ export function Bio() {
                             I'm a software engineer with a passion for developing robust and scalable solutions, with a
                             focus on clean code and user-friendly design.
                         </p>
-                        <LongButton text="Let's Go!" />
+                        <LongButton text="Let's Go!" icon="./img/asset/arrow.svg" iconclass="relative z-10 w-10 h-10"/>
                     </div>
                     <div className="w-32 pr-8 flex-col items-end justify-center hidden lg:flex lg:justify-center gap-4 fixed right-0 top-1/2 transform -translate-y-1/2">
                         <Navbar />

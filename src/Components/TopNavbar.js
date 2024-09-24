@@ -13,8 +13,8 @@ export function TopNavbar() {
             <nav className="bg-[#111111] border-gray-200 dark:bg-gray-900 dark:border-gray-700 fixed w-full z-10 md:hidden">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <div className="flex-1">
-                        <span className="self-center text-2xl font-semibold font-serif whitespace-nowrap text-[#FFB400] mr-3">Hi</span>
-                        <span className="self-center text-2xl font-semibold font-serif whitespace-nowrap text-white">Welcome,</span>
+                        <span className="self-center text-2xl font-semibold  whitespace-nowrap text-[#FFB400] mr-3">Hi</span>
+                        <span className="self-center text-2xl font-semibold  whitespace-nowrap text-white">Welcome,</span>
                     </div>
                     <button
                         onClick={() => setIsNavOpen(!isNavOpen)}
