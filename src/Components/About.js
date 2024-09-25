@@ -1,11 +1,14 @@
+import "../App.css";
 import { LongButton } from "./LongButton";
 import { Navbar } from "./Navbar";
 import { Skills } from "./Skills";
 import { Experience } from "./Experience";
 import { TopNavbar } from "./TopNavbar";
-export function About() {
-    return (
 
+export function About() {
+    const driveUrl = "https://drive.google.com/file/d/1pSZEKVxVfsOdU2aATysCPBCst_bpCCDk/view?usp=sharing";
+
+    return (
         <>
             <div className="flex flex-col bg-[#111111]">
                 <TopNavbar />
@@ -62,7 +65,7 @@ export function About() {
                             </div>
                         </div>
                         <div className="mt-4">
-                            <LongButton text="DOWNLOAD CV" icon="./img/asset/download.svg" iconclass="relative z-10 w-5 h-5"/>
+                            <LongButton text="DOWNLOAD CV" icon="./img/asset/download.svg" iconclass="relative z-10 w-5 h-5" link={driveUrl}/>
                         </div>
                     </div>
 
