@@ -1,7 +1,9 @@
-import { Navbar } from "./Navbar";
-import { LongButton } from "./LongButton";
-import { TopNavbar } from "./TopNavbar";
-export function ContactMe() {
+import Navbar  from "./Navbar";
+import TopNavbar  from "./TopNavbar";
+import Form from "./Form";
+import TransitionMotion from "./TransitionMotion";
+
+const ContactMe = () => {
     return (
         <>
             <div className="flex flex-col lg:flex-row bg-[#111111] min-h-screen  no-scrollbar">
@@ -52,32 +54,7 @@ export function ContactMe() {
                             </div>
                         </div>
                         <div className="w-full lg:basis-3/4 flex flex-col items-center justify-center">
-                            <form className="w-full lg:max-w-[800px] flex flex-col gap-4" action="mailto:minmitha0822@gmail.com" method="post" enctype="text/plain" data-form>
-                                <div className="flex flex-col lg:flex-row gap-4">
-                                    <input name="name" data-form-input
-                                        className="bg-[#252525] h-12  text-xl md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-[#FFB400] caret-white text-white"
-                                        type="text"
-                                        placeholder="Your Name"
-                                    />
-                                    <input name="email" data-form-input
-                                        className="bg-[#252525] h-12  text-xl md:text-center pl-4  rounded-full focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-[#FFB400] caret-white text-white"
-                                        type="text"
-                                        placeholder="Your Email"
-                                    />
-                                    <input name="phone" data-form-input
-                                        className="bg-[#252525]  h-12  text-xl md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-[#FFB400] caret-white text-white"
-                                        type="text"
-                                        placeholder="Your Phone"
-                                    />
-                                </div>
-                                <textarea name="message" data-form-input
-                                    className="bg-[#252525] h-[150px] lg:h-[200px] w-full text-xl text-left rounded-xl p-4 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-[#FFB400] caret-white text-white"
-                                    placeholder="Your Message"
-                                ></textarea>
-                                <div className="flex w-full max-w-[400px] lg:max-w-[800px] justify-start mt-4">
-                                    <LongButton text="MESSAGE ME" icon="./img/asset/telegram.svg" iconclass="relative z-10 w-5 h-5" link="" />
-                                </div>
-                            </form>
+                           <Form/>
 
                         </div>
                     </div>
@@ -89,3 +66,4 @@ export function ContactMe() {
         </>
     );
 }
+export default TransitionMotion(ContactMe);

@@ -1,8 +1,9 @@
-import { Navbar } from "./Navbar";
-import { TopNavbar } from "./TopNavbar";
-import { Projects } from "./Projects";
+import Navbar from "./Navbar";
+import TopNavbar from "./TopNavbar";
+import Projects from "./Projects";
+import TransitionMotion from "./TransitionMotion";
 
-export function Portfolio() {
+const Portfolio = () => {
     return (
         <>
             <div className="flex bg-[#111111] h-full w-full flex-col lg:flex-row">
@@ -17,7 +18,7 @@ export function Portfolio() {
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-                        <Projects/>
+                        <Projects />
                     </div>
 
                     <div className="mb-16"></div>
@@ -30,3 +31,4 @@ export function Portfolio() {
         </>
     );
 }
+export default TransitionMotion(Portfolio);

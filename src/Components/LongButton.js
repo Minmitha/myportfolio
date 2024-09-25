@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-export function LongButton({ text, icon, iconclass, link }) {
+const LongButton = ({ text, icon, iconclass, link }) => {
     const navigate = useNavigate();
     const handleClick = () => {
         // Check if it's a Google Drive URL
@@ -36,3 +36,4 @@ export function LongButton({ text, icon, iconclass, link }) {
         </>
     );
 }
+export default LongButton;

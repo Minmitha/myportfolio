@@ -1,4 +1,4 @@
-export function Experience() {
+const Experience = () => {
     return (
         <>
             <div>
@@ -104,3 +104,5 @@ export function Experience() {
         </>
     );
 }
+
+export default Experience;

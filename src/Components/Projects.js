@@ -1,4 +1,4 @@
-export function Projects() {
+const Projects = () => {
     return (
         <>
             {[
@@ -60,3 +60,4 @@ export function Projects() {
         </>
     )
 }
+export default Projects;

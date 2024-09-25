@@ -1,6 +1,5 @@
 import { useNavigate, useLocation } from "react-router-dom";
-
-export function Navbar() {
+const Navbar = () => {
     const navigate = useNavigate();
     const location = useLocation(); // Get current location (route)
 
@@ -48,3 +47,4 @@ export function Navbar() {
         </>
     );
 }
+export default Navbar;
