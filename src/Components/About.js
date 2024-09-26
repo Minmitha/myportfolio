@@ -65,7 +65,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="mt-4">
-                                <LongButton text="DOWNLOAD CV" icon="./img/asset/download.svg" iconclass="relative z-10 w-5 h-5" link={driveUrl} />
+                                <LongButton text="DOWNLOAD CV" icon="./img/asset/download.svg" iconclass="relative w-5 h-5" link={driveUrl} />
                             </div>
                         </div>
 

@@ -89,7 +89,7 @@ const Form = () => {
       </div>
 
       <div className="flex w-full max-w-[400px] lg:max-w-[800px] justify-start mt-4">
-        <LongButton text="MESSAGE ME" icon="./img/asset/telegram.svg" iconclass="relative z-10 w-5 h-5" link="" />
+        <LongButton text="MESSAGE ME" icon="./img/asset/telegram.svg" iconclass="relative w-5 h-5" link="" />
       </div>
     </form>
   );
