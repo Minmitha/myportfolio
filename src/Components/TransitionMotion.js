@@ -14,7 +14,7 @@ const TransitionMotion = (OgComponent) => {
             animate={{ scaleY: 0 }}
             exit={{ scaleY: 1 }}
             transition={{
-              duration: 0.3,
+              duration: 0.2,
               ease: [0.22, 1, 0.36, 1]
             }}
           />
@@ -24,9 +24,9 @@ const TransitionMotion = (OgComponent) => {
             animate={{ scaleY: 0 }}
             exit={{ scaleY: 1 }}
             transition={{
-              duration: 0.3,
+              duration: 0.2,
               ease: [0.22, 1, 0.36, 1],
-              delay: 0.2
+              delay: 0.1
             }}
           />
           <motion.div
@@ -35,9 +35,9 @@ const TransitionMotion = (OgComponent) => {
             animate={{ scaleY: 0 }}
             exit={{ scaleY: 1 }}
             transition={{
-              duration: 0.3,
+              duration: 0.2,
               ease: [0.22, 1, 0.36, 1],
-              delay: 0.5
+              delay: 0.2
             }}
           />
           <motion.div
@@ -46,9 +46,9 @@ const TransitionMotion = (OgComponent) => {
             animate={{ scaleY: 0 }}
             exit={{ scaleY: 1 }}
             transition={{
-              duration: 0.3,
+              duration: 0.2,
               ease: [0.22, 1, 0.36, 1],
-              delay: 0.8
+              delay: 0.4
             }}
           />
           <motion.div
@@ -57,9 +57,9 @@ const TransitionMotion = (OgComponent) => {
             animate={{ scaleY: 0 }}
             exit={{ scaleY: 1 }}
             transition={{
-              duration: 0.3,
+              duration: 0.2,
               ease: [0.22, 1, 0.36, 1],
-              delay: 1.1
+              delay: 0.5
             }}
           />
 
@@ -73,7 +73,7 @@ const TransitionMotion = (OgComponent) => {
             animate={{ scaleY: 0 }}
             exit={{ scaleY: 0 }}
             transition={{
-              duration: 0.3,
+              duration: 0.2,
               ease: [0.22, 1, 0.36, 1],
               delay: 0,
             }}
@@ -84,9 +84,9 @@ const TransitionMotion = (OgComponent) => {
             animate={{ scaleY: 0 }}
             exit={{ scaleY: 0 }}
             transition={{
-              duration: 0.3,
+              duration: 0.2,
               ease: [0.22, 1, 0.36, 1],
-              delay: 0.2,
+              delay: 0.1,
             }}
           />
           <motion.div
@@ -95,9 +95,9 @@ const TransitionMotion = (OgComponent) => {
             animate={{ scaleY: 0 }}
             exit={{ scaleY: 0 }}
             transition={{
-              duration: 0.3,
+              duration: 0.2,
               ease: [0.22, 1, 0.36, 1],
-              delay: 0.5,
+              delay: 0.3,
             }}
           />
           <motion.div
@@ -106,9 +106,9 @@ const TransitionMotion = (OgComponent) => {
             animate={{ scaleY: 0 }}
             exit={{ scaleY: 0 }}
             transition={{
-              duration: 0.3,
+              duration: 0.2,
               ease: [0.22, 1, 0.36, 1],
-              delay: 0.8,
+              delay: 0.4,
             }}
           />
           <motion.div
@@ -117,9 +117,9 @@ const TransitionMotion = (OgComponent) => {
             animate={{ scaleY: 0 }}
             exit={{ scaleY: 0 }}
             transition={{
-              duration: 0.3,
+              duration: 0.2,
               ease: [0.22, 1, 0.36, 1],
-              delay: 1.1,
+              delay: 0.5,
             }}
           />
         </>
