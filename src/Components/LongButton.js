@@ -24,7 +24,7 @@ const LongButton = ({ text, icon, iconclass, link }) => {
     return (
         <>
             <div className="relative inline-flex items-center rounded-full overflow-hidden bg-[#111111] shadow-xl border-2 border-[#FFB400]">
-                <p className="bg-transparent outline-none border-none pl-5 pr-4 py-2 font-sans text-lg font-semibold text-white">
+                <p className="bg-transparent outline-none border-none pl-5 pr-4 py-2 text-lg font-semibold text-white font-serif">
                     {text}
                 </p>
                 <button onClick={handleClick}

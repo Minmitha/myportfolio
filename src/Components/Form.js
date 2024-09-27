@@ -37,13 +37,13 @@ const Form = () => {
             name="name"
             value={formValues.name}
             onChange={handleInputChange}
-            className={`bg-[#252525] h-12 text-xl md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 ${
+            className={`bg-[#252525] h-12 text-xl font-serif md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 ${
               errors.name ? 'focus:ring-red-500' : 'focus:ring-yellow-500'
             } focus:border-[#FFB400] caret-white text-white`}
             type="text"
             placeholder="Your Name"
           />
-          {errors.name && <span className="text-red-500 text-sm mt-1">{errors.name}</span>}
+          {errors.name && <span className="text-red-500 text-sm mt-1 font-serif">{errors.name}</span>}
         </div>
 
         <div className="flex flex-col w-full">
@@ -51,13 +51,13 @@ const Form = () => {
             name="email"
             value={formValues.email}
             onChange={handleInputChange}
-            className={`bg-[#252525] h-12 text-xl md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 ${
+            className={`bg-[#252525] h-12 text-xl font-serif md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 ${
               errors.email ? 'focus:ring-red-500' : 'focus:ring-yellow-500'
             } focus:border-[#FFB400] caret-white text-white`}
             type="text"
             placeholder="Your Email"
           />
-          {errors.email && <span className="text-red-500 text-sm mt-1">{errors.email}</span>}
+          {errors.email && <span className="text-red-500 text-sm mt-1 font-serif">{errors.email}</span>}
         </div>
 
         <div className="flex flex-col w-full">
@@ -65,13 +65,13 @@ const Form = () => {
             name="phone"
             value={formValues.phone}
             onChange={handleInputChange}
-            className={`bg-[#252525] h-12 text-xl md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 ${
+            className={`bg-[#252525] h-12 text-xl font-serif md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 ${
               errors.phone ? 'focus:ring-red-500' : 'focus:ring-yellow-500'
             } focus:border-[#FFB400] caret-white text-white`}
             type="text"
             placeholder="Your Phone"
           />
-          {errors.phone && <span className="text-red-500 text-sm mt-1">{errors.phone}</span>}
+          {errors.phone && <span className="text-red-500 text-sm mt-1 font-serif">{errors.phone}</span>}
         </div>
       </div>
 
@@ -80,12 +80,12 @@ const Form = () => {
           name="message"
           value={formValues.message}
           onChange={handleInputChange}
-          className={`bg-[#252525] h-[150px] lg:h-[200px] w-full text-xl text-left rounded-xl p-4 focus:outline-none focus:ring-1 ${
+          className={`bg-[#252525] h-[150px] lg:h-[200px] font-serif w-full text-xl text-left rounded-xl p-4 focus:outline-none focus:ring-1 ${
             errors.message ? 'focus:ring-red-500' : 'focus:ring-yellow-500'
           } focus:border-[#FFB400] caret-white text-white`}
           placeholder="Your Message"
         />
-        {errors.message && <span className="text-red-500 text-sm mt-1">{errors.message}</span>}
+        {errors.message && <span className="text-red-500 text-sm mt-1 font-serif">{errors.message}</span>}
       </div>
 
       <div className="flex w-full max-w-[400px] lg:max-w-[800px] justify-start mt-4">

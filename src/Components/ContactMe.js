@@ -12,16 +12,16 @@ const ContactMe = () => {
                     <div className="flex items-start justify-center ">
                         <div className="relative flex flex-col items-center justify-center">
                             <span className="absolute inset-0 flex items-center justify-center text-3xl lg:text-5xl  font-extrabold">
-                                <span className="text-white mr-3">GET IN</span>
-                                <span className="text-[#FFB400]">TOUCH</span>
+                                <span className="text-white mr-3 font-serif">GET IN</span>
+                                <span className="text-[#FFB400] font-serif">TOUCH</span>
                             </span>
-                            <p className="text-[#222222] text-[60px] lg:text-[110px] font-extrabold">CONTACT</p>
+                            <p className="text-[#222222] text-[60px] lg:text-[110px] font-extrabold font-serif">CONTACT</p>
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex-row items-center justify-center min-h-[600px]">
                         <div className="basis-full lg:basis-1/4 text-center lg:text-left mb-10 lg:mb-0">
-                            <p className="uppercase text-xl lg:text-2xl font-bold text-white mb-4 lg:mb-8">Don't Be Shy!</p>
-                            <p className="text-sm lg:text-base text-white mb-4 lg:mb-8">
+                            <p className="uppercase text-xl lg:text-2xl font-bold text-white mb-4 lg:mb-8 font-serif">Don't Be Shy!</p>
+                            <p className="text-sm lg:text-base text-white mb-4 lg:mb-8 font-serif">
                                 Feel free to get in touch with me. I am always open to discussing new projects,
                                 creative ideas or opportunities to be part of your visions.
                             </p>
@@ -32,8 +32,8 @@ const ContactMe = () => {
                                             <img src="./img/asset/user_message.svg" className="w-8 h-8 lg:w-10 lg:h-10" alt="Email Icon" />
                                         </div>
                                         <div className="flex-grow">
-                                            <p className="text-white uppercase text-xs lg:text-xs font-bold opacity-85">mail me</p>
-                                            <p className="text-white text-sm lg:text-xl font-medium">
+                                            <p className="text-white uppercase text-xs lg:text-xs font-bold opacity-85 font-serif">mail me</p>
+                                            <p className="text-white text-sm lg:text-xl font-medium font-serif">
                                                 <a href="mailto:minmitha0822@gmail.com">
                                                     minmitha0822@gmail.com
                                                 </a>
@@ -45,8 +45,8 @@ const ContactMe = () => {
                                             <img src="./img/asset/contact.svg" className="w-8 h-8 lg:w-10 lg:h-10" alt="Phone Icon" />
                                         </div>
                                         <div className="flex-grow">
-                                            <p className="text-white uppercase text-xs lg:text-xs font-bold opacity-85">call me</p>
-                                            <p className="text-white text-sm lg:text-xl font-medium">6381928805</p>
+                                            <p className="text-white uppercase text-xs lg:text-xs font-bold opacity-85 font-serif">call me</p>
+                                            <p className="text-white text-sm lg:text-xl font-medium font-serif">6381928805</p>
                                         </div>
                                     </div>
                                 </div>

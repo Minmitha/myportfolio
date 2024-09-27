@@ -13,8 +13,8 @@ const TopNavbar = () => {
             <nav className="bg-[#111111] border-gray-200 dark:bg-gray-900 dark:border-gray-700 fixed w-full z-10 md:hidden">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <div className="flex-1">
-                        <span className="self-center text-2xl font-semibold  whitespace-nowrap text-[#FFB400] mr-3">Hi</span>
-                        <span className="self-center text-2xl font-semibold  whitespace-nowrap text-white">Welcome,</span>
+                        <span className="self-center text-2xl font-semibold  whitespace-nowrap text-[#FFB400] mr-3 font-serif">Hi</span>
+                        <span className="self-center text-2xl font-semibold  whitespace-nowrap text-white font-serif">Welcome,</span>
                     </div>
                     <button
                         onClick={() => setIsNavOpen(!isNavOpen)}
@@ -43,7 +43,7 @@ const TopNavbar = () => {
                             <li>
                                 <Link
                                     to="/"
-                                    className={`block py-2 px-3 text-white rounded-full ${
+                                    className={`block py-2 px-3 text-white rounded-full font-serif ${
                                         isActive("/") ? "bg-[#FFB400]" : "hover:bg-[#FFB400]"
                                     } md:hover:bg-transparent md:p-0 hover:bg-[#FFB400] md:dark:bg-transparent`}
                                     aria-current={isActive("/") ? "page" : undefined}
@@ -54,7 +54,7 @@ const TopNavbar = () => {
                             <li>
                                 <Link
                                     to="/about"
-                                    className={`block py-2 px-3 text-white rounded-full ${
+                                    className={`block py-2 px-3 text-white rounded-full font-serif ${
                                         isActive("/about") ? "bg-[#FFB400]" : "hover:bg-[#FFB400]"
                                     } md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent`}
                                 >
@@ -64,7 +64,7 @@ const TopNavbar = () => {
                             <li>
                                 <Link
                                     to="/portfolio"
-                                    className={`block py-2 px-3 text-white rounded-full ${
+                                    className={`block py-2 px-3 text-white rounded-full font-serif ${
                                         isActive("/portfolio") ? "bg-[#FFB400]" : "hover:bg-[#FFB400]"
                                     } md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent`}
                                 >
@@ -74,7 +74,7 @@ const TopNavbar = () => {
                             <li>
                                 <Link
                                     to="/contactme"
-                                    className={`block py-2 px-3 text-white rounded-full ${
+                                    className={`block py-2 px-3 text-white rounded-full font-serif ${
                                         isActive("/contactme") ? "bg-[#FFB400]" : "hover:bg-[#FFB400]"
                                     } md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent`}
                                 >

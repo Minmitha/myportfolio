@@ -25,13 +25,13 @@ const Bio = () => {
                                 className="mx-auto mb-6 w-32 h-32 sm:w-40 sm:h-40 md:w-[270px] md:h-[270px] rounded-full border-4 border-solid border-[#252525]"
                             />
                         </div>
-                        <h1 className="text-[#FFB400] text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-center lg:text-left">
+                        <h1 className="text-[#FFB400] text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-serif font-bold text-center lg:text-left">
                             - I'M MINMITHA A.
                         </h1>
-                        <h2 className="text-white text-2xl sm:text-3xl md:text-4xl xl:text-5xl mt-2 sm:mt-4 font-bold text-center lg:text-left">
+                        <h2 className="text-white text-2xl sm:text-3xl md:text-4xl xl:text-5xl mt-2 font-serif sm:mt-4 font-bold text-center lg:text-left">
                             SOFTWARE ENGINEER
                         </h2>
-                        <p className="text-white text-sm sm:text-base md:text-xl xl:text-lg mt-4 w-full sm:w-[80%] lg:w-[50%] pb-8 text-center lg:text-left">
+                        <p className="text-white text-sm sm:text-base md:text-xl xl:text-lg mt-4 w-full sm:w-[80%] lg:w-[50%] pb-8 text-center font-serif lg:text-left">
                             I'm a software engineer with a passion for developing robust and scalable solutions, with a
                             focus on clean code and user-friendly design.
                         </p>

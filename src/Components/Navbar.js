@@ -7,7 +7,7 @@ const Navbar = () => {
         <>
             {/* HOME Button */}
             <div className={`flex items-center rounded-full bg-[#FFB400] group transition-all duration-700 ease-in-out hover:bg-[#FFB600] ${location.pathname === '/' ? 'bg-[#FFB600]' : ''}`}>
-                <p className="p-3 text-white text-sm font-medium hidden group-hover:inline-block transition-all duration-700 ease-in-out">
+                <p className="p-3 text-white text-sm font-medium hidden group-hover:inline-block transition-all duration-700 ease-in-out font-serif">
                     HOME
                 </p>
                 <button className={`flex items-center justify-center w-14 h-14 rounded-full transition-all  group-hover:bg-[#FFB600] duration-700 ease-in-out ${location.pathname === '/' ? 'bg-[#FFB600]' : 'bg-[#2B2A2A]'}`} onClick={() => navigate('/')}>
@@ -17,7 +17,7 @@ const Navbar = () => {
 
             {/* ABOUT Button */}
             <div className={`flex items-center rounded-full group transition-all duration-700 ease-in-out hover:bg-[#FFB600]  ${location.pathname === '/about' ? 'bg-[#FFB600]' : ''}`}>
-                <p className="p-3 text-white text-sm font-medium hidden group-hover:inline-block transition-all duration-700 ease-in-out">
+                <p className="p-3 text-white text-sm font-medium hidden group-hover:inline-block transition-all duration-700 ease-in-out font-serif">
                     ABOUT
                 </p>
                 <button className={`flex items-center justify-center w-14 h-14 rounded-full transition-all duration-700 ease-in-out  group-hover:bg-[#FFB600] ${location.pathname === '/about' ? 'bg-[#FFB600]' : 'bg-[#2B2A2A]'}`} onClick={() => navigate('/about')}>
@@ -27,7 +27,7 @@ const Navbar = () => {
 
             {/* PORTFOLIO Button */}
             <div className={`flex items-center rounded-full group transition-all duration-700 ease-in-out hover:bg-[#FFB600] ${location.pathname === '/portfolio' ? 'bg-[#FFB600]' : ''}`}>
-                <p className="p-3 text-white text-sm font-medium hidden group-hover:inline-block transition-all duration-700 ease-in-out">
+                <p className="p-3 text-white text-sm font-medium hidden group-hover:inline-block transition-all duration-700 ease-in-out font-serif">
                     PORTFOLIO
                 </p>
                 <button className={`flex items-center justify-center w-14 h-14 rounded-full transition-all duration-700 ease-in-out  group-hover:bg-[#FFB600] ${location.pathname === '/portfolio' ? 'bg-[#FFB600]' : 'bg-[#2B2A2A]'}`} onClick={() => navigate('/portfolio')}>
@@ -37,7 +37,7 @@ const Navbar = () => {
 
             {/* CONTACT Button */}
             <div className={`flex items-center rounded-full group transition-all duration-700 ease-in-out hover:bg-[#FFB600] ${location.pathname === '/contactme' ? 'bg-[#FFB600]' : ''}`}>
-                <p className="p-3 text-white text-sm font-medium hidden group-hover:inline-block transition-all duration-700 ease-in-out">
+                <p className="p-3 text-white text-sm font-medium hidden group-hover:inline-block transition-all duration-700 ease-in-out font-serif">
                     CONTACT
                 </p>
                 <button className={`flex items-center justify-center w-14 h-14 rounded-full transition-all duration-700 ease-in-out  group-hover:bg-[#FFB600]  ${location.pathname === '/contactme' ? 'bg-[#FFB600]' : 'bg-[#2B2A2A]'}`} onClick={() => navigate('/contactme')}>
