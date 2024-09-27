@@ -31,8 +31,8 @@ const ContactMe = () => {
                                         <div className="flex items-center justify-center w-12 h-12 lg:w-16 lg:h-16">
                                             <img src="./img/asset/user_message.svg" className="w-8 h-8 lg:w-10 lg:h-10" alt="Email Icon" />
                                         </div>
-                                        <div className="flex-grow">
-                                            <p className="text-white uppercase text-xs lg:text-xs font-bold opacity-85 font-serif">mail me</p>
+                                        <div className="">
+                                            <p className="text-white uppercase text-xs lg:text-xs font-bold opacity-85 font-serif text-left">mail me</p>
                                             <p className="text-white text-sm lg:text-xl font-medium font-serif">
                                                 <a href="mailto:minmitha0822@gmail.com">
                                                     minmitha0822@gmail.com
@@ -44,8 +44,8 @@ const ContactMe = () => {
                                         <div className="flex items-center justify-center w-12 h-12 lg:w-16 lg:h-16">
                                             <img src="./img/asset/contact.svg" className="w-8 h-8 lg:w-10 lg:h-10" alt="Phone Icon" />
                                         </div>
-                                        <div className="flex-grow">
-                                            <p className="text-white uppercase text-xs lg:text-xs font-bold opacity-85 font-serif">call me</p>
+                                        <div className="">
+                                            <p className="text-white uppercase text-xs lg:text-xs font-bold opacity-85 font-serif  text-left">call me</p>
                                             <p className="text-white text-sm lg:text-xl font-medium font-serif">6381928805</p>
                                         </div>
                                     </div>

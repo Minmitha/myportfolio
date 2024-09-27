@@ -37,7 +37,7 @@ const Form = () => {
             name="name"
             value={formValues.name}
             onChange={handleInputChange}
-            className={`bg-[#252525] h-12 text-xl font-serif md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 ${
+            className={`bg-[#252525] md:h-12 h-10  md:text-xl text-base  font-serif md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 ${
               errors.name ? 'focus:ring-red-500' : 'focus:ring-yellow-500'
             } focus:border-[#FFB400] caret-white text-white`}
             type="text"
@@ -51,7 +51,7 @@ const Form = () => {
             name="email"
             value={formValues.email}
             onChange={handleInputChange}
-            className={`bg-[#252525] h-12 text-xl font-serif md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 ${
+            className={`bg-[#252525] md:h-12 h-10  md:text-xl text-base font-serif md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 ${
               errors.email ? 'focus:ring-red-500' : 'focus:ring-yellow-500'
             } focus:border-[#FFB400] caret-white text-white`}
             type="text"
@@ -65,7 +65,7 @@ const Form = () => {
             name="phone"
             value={formValues.phone}
             onChange={handleInputChange}
-            className={`bg-[#252525] h-12 text-xl font-serif md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 ${
+            className={`bg-[#252525] md:h-12 h-10  md:text-xl text-base font-serif md:text-center pl-4 rounded-full focus:outline-none focus:ring-1 ${
               errors.phone ? 'focus:ring-red-500' : 'focus:ring-yellow-500'
             } focus:border-[#FFB400] caret-white text-white`}
             type="text"
@@ -80,7 +80,7 @@ const Form = () => {
           name="message"
           value={formValues.message}
           onChange={handleInputChange}
-          className={`bg-[#252525] h-[150px] lg:h-[200px] font-serif w-full text-xl text-left rounded-xl p-4 focus:outline-none focus:ring-1 ${
+          className={`bg-[#252525] h-[150px] lg:h-[200px] font-serif w-full  md:text-xl text-base text-left rounded-xl p-4 focus:outline-none focus:ring-1 ${
             errors.message ? 'focus:ring-red-500' : 'focus:ring-yellow-500'
           } focus:border-[#FFB400] caret-white text-white`}
           placeholder="Your Message"
@@ -89,7 +89,9 @@ const Form = () => {
       </div>
 
       <div className="flex w-full max-w-[400px] lg:max-w-[800px] justify-start mt-4">
-        <LongButton text="MESSAGE ME" icon="./img/asset/telegram.svg" iconclass="relative w-5 h-5" link="" />
+        <LongButton text="MESSAGE ME" icon="./img/asset/telegram.svg" iconclass="relative md:w-5 md:h-5 w-4 h-4" link="" />
+      </div>
+      <div className="flex w-full max-w-[400px] lg:max-w-[800px] justify-start mt-4">
       </div>
     </form>
   );
