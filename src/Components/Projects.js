@@ -18,19 +18,19 @@ const Projects = () => {
                     description: "The Fido Academy is a Global Forex Trading institute offering multiple forex trading courses to all clients and Traders interested in Forex Markets.",
                 },
                 {
-                    src: "./img/asset/house_logo.svg",
-                    title: "Fido Academy",
-                    description: "The Fido Academy is a Global Forex Trading institute offering multiple forex trading courses to all clients and Traders interested in Forex Markets.",
+                    src: "./img/asset/swift.svg",
+                    title: "Swiftrevel",
+                    description: "Swiftrevel is a fintech platform that seamlessly integrates with existing tools to eliminate data silos and optimize workflow efficiency. It leverages modern technologies for secure and streamlined financial transactions.",
                 },
                 {
-                    src: "./img/asset/worship_live.svg",
-                    title: "Fido Academy",
-                    description: "The Fido Academy is a Global Forex Trading institute offering multiple forex trading courses to all clients and Traders interested in Forex Markets.",
+                    src: "./img/asset/my-ledger.png",
+                    title: "My Ledger",
+                    description: "My Ledger is an depth and accurate finance management tool/platform to monitor every aspect of revenue and spend analysis with error-free & precise reports.",
                 },
                 {
-                    src: "./img/asset/Book_logo.svg",
-                    title: "Fido Academy",
-                    description: "The Fido Academy is a Global Forex Trading institute offering multiple forex trading courses to all clients and Traders interested in Forex Markets.",
+                    src: "./img/asset/rugrlogo.svg",
+                    title: "Rugr",
+                    description: "Rugr play a crucial role in the modem financial ecosystem by facilitating etween merchants and related stakeholders. As a PSP, it acts as an intermediary that connect merchants to various financial institutions, enabling the seamless processing of payments.",
                 },
                 {
                     src: "./img/asset/Nettech.svg",
@@ -43,7 +43,7 @@ const Projects = () => {
                     description: "The Fido Academy is a Global Forex Trading institute offering multiple forex trading courses to all clients and Traders interested in Forex Markets.",
                 },
                 {
-                    src: "./img/asset/sample.svg",
+                    src: "./img/asset/Book_logo.svg",
                     title: "Fido Academy",
                     description: "The Fido Academy is a Global Forex Trading institute offering multiple forex trading courses to all clients and Traders interested in Forex Markets.",
                 },
