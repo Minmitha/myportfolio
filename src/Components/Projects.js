@@ -5,7 +5,7 @@ const Projects = () => {
                 {
                     src: "./img/asset/project_logo.svg",
                     title: "Hinez",
-                    description: "The project is designed to streamline and automate HR processes such as employee management, payroll, recruitment, attendance tracking, and performance evaluation, improving organizational efficiency and decision-making.",
+                    description: "The project is designed to streamline and automate HR processes such as employee management, payroll, recruitment, attendance tracking, and performance evaluation etc.",
                 },
                 {
                     src: "./img/asset/fidoacademy.png",
@@ -20,7 +20,7 @@ const Projects = () => {
                 {
                     src: "./img/asset/swift.svg",
                     title: "Swiftrevel",
-                    description: "Swiftrevel is a fintech platform that seamlessly integrates with existing tools to eliminate data silos and optimize workflow efficiency. It leverages modern technologies for secure and streamlined financial transactions.",
+                    description: "Swiftrevel is a fintech platform that seamlessly integrates with existing tools to eliminate data silos and optimize workflow efficiency. It leverages modern technologies for secure transactions.",
                 },
                 {
                     src: "./img/asset/my-ledger.png",
@@ -30,7 +30,7 @@ const Projects = () => {
                 {
                     src: "./img/asset/rugrlogo.svg",
                     title: "Rugr",
-                    description: "Rugr play a crucial role in the modem financial ecosystem by facilitating etween merchants and related stakeholders. As a PSP, it acts as an intermediary that connect merchants to various financial institutions, enabling the seamless processing of payments.",
+                    description: "Rugr play a crucial role in the modem financial ecosystem by facilitating etween merchants and related stakeholders. As a PSP, it acts as an intermediary that connect merchants to various financial institutions.",
                 },
                 {
                     src: "./img/asset/Nettech.svg",
