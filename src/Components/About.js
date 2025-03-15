@@ -6,7 +6,7 @@ import Experience from "./Experience";
 import TopNavbar from "./TopNavbar";
 import TransitionMotion from "./TransitionMotion";
 const About = () => {
-    const driveUrl = "https://drive.google.com/file/d/1pSZEKVxVfsOdU2aATysCPBCst_bpCCDk/view?usp=sharing";
+    const driveUrl = "https://drive.google.com/file/d/1w_24QglCw1eg8UYzIaZ9Y2ghPG7oeSjn/view?usp=drive_link";
 
     return (
         <>
@@ -130,7 +130,7 @@ const About = () => {
                         </div>
                         <div className="flex flex-wrap justify-center gap-8 px-4">
                             <div className="flex flex-col gap-8">
-                                <Skills percentage="50%" skill="HTML" />
+                                <Skills percentage="70%" skill="HTML" />
                                 <Skills percentage="70%" skill="CSS" />
                             </div>
                             <div className="flex flex-col gap-8">
