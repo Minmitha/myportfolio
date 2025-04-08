@@ -8,12 +8,12 @@ const Projects = () => {
                     description: "The project is designed to streamline and automate HR processes such as employee management, payroll, recruitment, attendance tracking, and performance evaluation etc.",
                 },
                 {
-                    src: "./img/asset/fidoacademy.png",
+                    src: "./img/asset/fido_markets.jpg",
                     title: "Fido Markets",
                     description: "Fido Markets is an international brokerage firm in online forex trading, providing top quality financial and investment services all over the world.",
                 },
                 {
-                    src: "./img/asset/fido_markets.jpg",
+                    src: "./img/asset/fidoacademy.png",
                     title: "Fido Academy",
                     description: "The Fido Academy is a Global Forex Trading institute offering multiple forex trading courses to all clients and Traders interested in Forex Markets.",
                 },
