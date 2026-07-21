@@ -6,7 +6,6 @@ import Bio from './Components/Bio';
 import About from './Components/About';
 import Portfolio from "./Components/Portfolio";
 import ContactMe from "./Components/ContactMe";
-import Navbar from "./Components/Navbar";
 
 function App() {
   const location = useLocation();

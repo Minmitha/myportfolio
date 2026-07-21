@@ -6,7 +6,7 @@ import Experience from "./Experience";
 import TopNavbar from "./TopNavbar";
 import TransitionMotion from "./TransitionMotion";
 const About = () => {
-    const driveUrl = "https://drive.google.com/file/d/1w_24QglCw1eg8UYzIaZ9Y2ghPG7oeSjn/view?usp=drive_link";
+    const driveUrl = "https://drive.google.com/file/d/1Br1mK2fe0LvfCsT0m6Gh7Wt8HCfFaiC9/view?usp=drivesdk";
 
     return (
         <>
