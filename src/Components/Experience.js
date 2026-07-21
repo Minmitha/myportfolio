@@ -24,7 +24,13 @@ const Experience = () => {
     const experienceData = [
         {
             icon: './img/asset/job.svg',
-            period: 'April, 2023 - PRESENT',
+            period: 'May, 2025 - PRESENT',
+            title: 'Software Developer - Dreams Technologies',
+            description: 'Creating scalable AI solutions and predictive analytics, customized for client needs.',
+        },
+        {
+            icon: './img/asset/job.svg',
+            period: 'April, 2023 - April 2025',
             title: 'Software Engineer - Cloudrevel Innovations',
             description: 'Developing and maintaining software solutions tailored to client needs.',
         },
@@ -34,12 +40,12 @@ const Experience = () => {
             title: 'Junior PHP Developer - Fido Groups',
             description: 'Building and maintaining web applications while enhancing backend functionality.',
         },
-        {
-            icon: './img/asset/job.svg',
-            period: 'April, 2022 - June, 2022',
-            title: 'Web Developer Intern - Imaje Technology',
-            description: 'Assisted in developing responsive websites and optimizing front-end performance.',
-        },
+        // {
+        //     icon: './img/asset/job.svg',
+        //     period: 'April, 2022 - June, 2022',
+        //     title: 'Web Developer Intern - Imaje Technology',
+        //     description: 'Assisted in developing responsive websites and optimizing front-end performance.',
+        // },
     ];
 
     // Education Data

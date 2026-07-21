@@ -76,7 +76,7 @@ const About = () => {
                                 <div className="flex-1 border border-[#252525] p-4">
                                     <div className="relative h-32">
                                         <div className="absolute top-2 left-2">
-                                            <span className="font-extrabold text-3xl md:text-5xl text-[#FFB400] font-serif">2+</span>
+                                            <span className="font-extrabold text-3xl md:text-5xl text-[#FFB400] font-serif">4</span>
                                         </div>
                                         <div className="absolute inset-x-0 bottom-2"> 
                                             <span className="text-white text-base md:text-2xl font-serif">YEARS OF EXPERIENCE</span>
@@ -86,7 +86,7 @@ const About = () => {
                                 <div className="flex-1 border border-[#252525] p-4">
                                     <div className="relative h-32">
                                         <div className="absolute top-2 left-2">
-                                            <span className="font-extrabold text-3xl md:text-5xl text-[#FFB400] font-serif">15+</span>
+                                            <span className="font-extrabold text-3xl md:text-5xl text-[#FFB400] font-serif">20+</span>
                                         </div>
                                         <div className="absolute inset-x-0 bottom-2">
                                             <span className="text-white text-base md:text-2xl font-serif">COMPLETED PROJECTS</span>
