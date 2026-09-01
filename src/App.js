@@ -1,6 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import Bio from './Components/Bio';
+// import Bio from './Components/Bio';
 import About from './Components/About';
 import Portfolio from "./Components/Portfolio";
 import ContactMe from "./Components/ContactMe";
