@@ -1,10 +1,9 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-// import Bio from './Components/Bio';
+import Bio from './Components/Bio';
 import About from './Components/About';
 import Portfolio from "./Components/Portfolio";
 import ContactMe from "./Components/ContactMe";
-import Maintenance from "./Components/Maintenance";
 
 let SpeedInsights = () => null;
 let Analytics = () => null;
@@ -31,11 +30,11 @@ function App() {
       <Analytics />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Maintenance />}/>
+          <Route path="/" element={<Bio />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/contactme" element={<ContactMe />}/>
           <Route path="/portfolio" element={<Portfolio />}/>
-          <Route path="/*" element={<Maintenance />}/>
+          <Route path="/*" element={<Bio />}/>
         </Routes>
       </AnimatePresence>
     </>

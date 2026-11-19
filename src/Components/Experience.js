@@ -34,18 +34,18 @@ const Experience = () => {
             title: 'Software Engineer - Cloudrevel Innovations',
             description: 'Developing and maintaining software solutions tailored to client needs.',
         },
-        {
-            icon: './img/asset/job.svg',
-            period: 'July, 2022 - April, 2023',
-            title: 'Junior PHP Developer - Fido Groups',
-            description: 'Building and maintaining web applications while enhancing backend functionality.',
-        },
         // {
         //     icon: './img/asset/job.svg',
-        //     period: 'April, 2022 - June, 2022',
-        //     title: 'Web Developer Intern - Imaje Technology',
-        //     description: 'Assisted in developing responsive websites and optimizing front-end performance.',
+        //     period: 'July, 2022 - April, 2023',
+        //     title: 'Junior PHP Developer - Fido Groups',
+        //     description: 'Building and maintaining web applications while enhancing backend functionality.',
         // },
+        {
+            icon: './img/asset/job.svg',
+            period: 'April, 2022 - June, 2022',
+            title: 'Web Developer Intern - Imaje Technology',
+            description: 'Assisted in developing responsive websites and optimizing front-end performance.',
+        },
     ];
 
     // Education Data

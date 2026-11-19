@@ -6,7 +6,7 @@ import Experience from "./Experience";
 import TopNavbar from "./TopNavbar";
 import TransitionMotion from "./TransitionMotion";
 const About = () => {
-    const driveUrl = "https://drive.google.com/file/d/1Br1mK2fe0LvfCsT0m6Gh7Wt8HCfFaiC9/view?usp=drivesdk";
+    const driveUrl = "https://drive.google.com/file/d/19Ga7KtXVK3lhM7fhAoubwJA_Vjj4z8Wn/view?usp=drivesdk";
 
     return (
         <>
@@ -40,10 +40,10 @@ const About = () => {
                                         <span className="opacity-80 text-base font-serif">Email: </span>
                                         <span className="text-base font-serif">minmitha0822@gmail.com</span>
                                     </div>
-                                    <div className="pb-4">
+                                    {/* <div className="pb-4">
                                         <span className="opacity-80 text-base font-serif">Age: </span>
                                         <span className="text-base font-serif">24</span>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className="text-white basis-1/2">
                                     <div className="pb-4">
@@ -130,24 +130,20 @@ const About = () => {
                         </div>
                         <div className="flex flex-wrap justify-center gap-8 px-4">
                             <div className="flex flex-col gap-8">
-                                <Skills percentage="70%" skill="HTML" />
-                                <Skills percentage="70%" skill="CSS" />
+                                <Skills percentage="80%" skill="HTML" />
+                                <Skills percentage="80%" skill="CSS" />
                             </div>
                             <div className="flex flex-col gap-8">
-                                <Skills percentage="75%" skill="JAVASCRIPT" />
-                                <Skills percentage="70%" skill="JQUERY" />
+                                <Skills percentage="85%" skill="JAVASCRIPT" />
+                                <Skills percentage="85%" skill="REACT" />
                             </div>
                             <div className="flex flex-col gap-8">
-                                <Skills percentage="60%" skill="AJAX" />
-                                <Skills percentage="60%" skill="REACT" />
-                            </div>
-                            <div className="flex flex-col gap-8">
-                                <Skills percentage="85%" skill="PHP" />
-                                <Skills percentage="85%" skill="LARAVEL" />
+                                <Skills percentage="85%" skill="JAVA" />
+                                <Skills percentage="85%" skill="SPRING BOOT" />
                             </div>
                             <div className="flex flex-col gap-8">
                                 <Skills percentage="75%" skill="TAILWIND CSS" />
-                                <Skills percentage="60%" skill="MYSQL" />
+                                <Skills percentage="80%" skill="MYSQL" />
                             </div>
                         </div>
                     </div>
