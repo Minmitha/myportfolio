@@ -6,7 +6,7 @@ import Experience from "./Experience";
 import TopNavbar from "./TopNavbar";
 import TransitionMotion from "./TransitionMotion";
 const About = () => {
-    const driveUrl = "https://drive.google.com/file/d/19Ga7KtXVK3lhM7fhAoubwJA_Vjj4z8Wn/view?usp=drivesdk";
+    const driveUrl = "https://drive.google.com/file/d/1FL6Qd5XuXYRzWVzzOvRv7BZUT_Fdg5G6/view?usp=drivesdk";
 
     return (
         <>
@@ -146,7 +146,7 @@ const About = () => {
                                 <Skills percentage="85%" skill="SPRING BOOT" />
                             </div>
                             <div className="flex flex-col gap-8">
-                                <Skills percentage="75%" skill="MICROSERVICES" />
+                                <Skills percentage="80%" skill="MICROSERVICES" />
                                 <Skills percentage="80%" skill="MYSQL" />
                             </div>
                         </div>
