@@ -35,7 +35,7 @@ const ContactMe = () => {
                                             <p className="text-white uppercase text-xs lg:text-xs font-bold opacity-85 font-serif text-left">mail me</p>
                                             <p className="text-white text-sm lg:text-xl font-medium font-serif">
                                                 <a href="mailto:minmitha0822@gmail.com">
-                                                    minmitha0822@gmail.com
+                                                    minmitha22@gmail.com
                                                 </a>
                                             </p>
                                         </div>
@@ -46,7 +46,7 @@ const ContactMe = () => {
                                         </div>
                                         <div className="">
                                             <p className="text-white uppercase text-xs lg:text-xs font-bold opacity-85 font-serif  text-left">call me</p>
-                                            <p className="text-white text-sm lg:text-xl font-medium font-serif">6381928805</p>
+                                            <p className="text-white text-sm lg:text-xl font-medium font-serif">7871478805</p>
                                         </div>
                                     </div>
                                 </div>

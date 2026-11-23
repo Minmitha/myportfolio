@@ -134,15 +134,19 @@ const About = () => {
                                 <Skills percentage="80%" skill="CSS" />
                             </div>
                             <div className="flex flex-col gap-8">
+                                <Skills percentage="85%" skill="TAILWIND CSS" />
                                 <Skills percentage="85%" skill="JAVASCRIPT" />
-                                <Skills percentage="85%" skill="REACT" />
+                            </div>
+                             <div className="flex flex-col gap-8">
+                                <Skills percentage="85%" skill="TYPESCRIPT" />
+                                <Skills percentage="85%" skill="ANGULAR" />
                             </div>
                             <div className="flex flex-col gap-8">
                                 <Skills percentage="85%" skill="JAVA" />
                                 <Skills percentage="85%" skill="SPRING BOOT" />
                             </div>
                             <div className="flex flex-col gap-8">
-                                <Skills percentage="75%" skill="TAILWIND CSS" />
+                                <Skills percentage="75%" skill="MICROSERVICES" />
                                 <Skills percentage="80%" skill="MYSQL" />
                             </div>
                         </div>
